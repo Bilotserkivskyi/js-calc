@@ -14,6 +14,7 @@ class Calc {
     }
 
     this.#value = this.#value.concat(newValue)
+
     this.#output()
   }
 
@@ -32,7 +33,9 @@ class Calc {
     }
 
     this.#value = this.#value.concat('.')
+
     this.#output()
+
     this.#isDot = true
   }
 
